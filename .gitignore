@@ -1,0 +1,37 @@
+# Fichiers temporaires système
+.DS_Store
+Thumbs.db
+
+# Logs et sorties
+*.log
+*.out
+*.err
+
+# Environnements
+env/
+venv/
+.venv/
+*.env
+*.local
+
+# Docker
+docker-compose.override.yml
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Clés / certificats / secrets
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.secret
+*.token
+
+# Bases de données / dumps
+*.sql
+*.db
+*.sqlite
